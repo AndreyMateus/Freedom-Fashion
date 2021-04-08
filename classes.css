@@ -1,0 +1,210 @@
+/*LEMBRE-SE USE O BOSTRAP E O QUE FALTAR PARA ESTILIZAR (PERSONALIZAR) AI SIM CRIE SUAS PRÓPRIAS CLASSES!!!.*/
+
+.fundo {
+    /* imagem do fundo do site*/
+    background-image: url("ImagesFreedomFashion/Empresa/Background_remastered.png");
+    background-color: #ee6600;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.espacing{
+    /* posionamento do SPAN da descrição abaixo do ócone minha conta*/
+    float: left;
+    margin-left: -90px;
+    margin-top: 2px;
+    display: flex;
+}
+.espacing1{
+    /* posionamento do SPAN da descrição abaixo do ócone minha conta*/
+    display: flex;
+    margin-top: 15px;
+    margin-left: -25px;
+}
+.espacing2{
+     /* posionamento do SPAN da descrição abaixo do ócone minha conta*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: -35px;
+    
+}
+.centralizar {
+    /*CENTRALIZA OS ITENS*/
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
+
+}
+.puxar{
+    /*puxa o fundo transparente para cima*/
+    margin-bottom: -2%;
+}
+.esqrodape{
+    /*distância do fundo laranja para o centro*/
+        margin-left: -1%;
+        width: 100.50% ;
+}
+.posiicon1 {
+    /*posição dos icones de menu*/
+    margin-top: -190PX;
+    margin-left: 220%;
+    display: flex;
+}
+
+.posiicon2 {
+    /*posição dos icones de menu*/
+    margin-top: -195PX;
+    margin-left: 130%;
+    display: flex;
+}
+
+.posiicon3 {
+    /*posição dos icones de menu*/
+    margin-top: -195PX;
+    margin-left: 40%;
+    display: flex;
+}
+.posimenu{
+    /*posicionamento do menu*/
+    display: flex;
+    padding-top: 16%;
+    padding-bottom: -5%;
+
+}
+.bordaimagem {
+    /*BORDA EM VOLTA DA IMAGEM DA VITRINE*/
+    border: 1px solid #000000;
+}
+
+.fonteicone {
+    /*FONTES DAS PALAVRAS DOS ICONES DO MENU(SALVO,CARRINHO,CONTA)*/
+    font-size: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+}
+
+.fonteiconevitrine {
+    /*FONTES DAS PALAVRAS DA VITRINE*/
+    margin-top: 20%;
+	font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.posifundo{
+    /*posição do fundo preto transparente*/
+    margin-left: -1.50%;
+    margin-top: -14%;
+}
+.bordabanner {
+    /*Borda do banner */
+    border: 1px solid #000000;
+    justify-content: center;
+}
+
+#promo {
+    /*Fonte do site */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 4%;
+    font-size: 60px;
+    color: rgb(230, 230, 230);
+    text-shadow: #000000 5px 10px 10px;
+    margin-bottom: 1%;
+}
+
+.transparente {
+    /*Fundo de cor transparente */
+    background-color: rgba(0, 0, 0, 0.5);
+    /*height: 22;
+    margin-left: 8.30cm;*/
+    border: 1px solid black;
+   /* padding-bottom: 150px;*/
+    
+}
+.position{
+        margin-left: -95px;
+        padding-top: 15px;
+}
+
+.tamanho {
+    /*TAMANHA DA BARRA*/
+    width: 102%;
+    height: 40px;
+    margin-top: -150px;
+    margin-left: -3.50%;
+    display: flex;
+}
+
+.tamanholupa {
+    /*TAMANHA DA LUPA  DA BARRA DE PESQUISA*/
+    width: 3%;
+    height: 30px;
+    margin-top: -35px;
+    margin-left: 94.85%;
+    display: flex;
+}
+
+
+.cabecalho {
+   border: black 1px solid;
+   background-image: url("ImagesFreedomFashion/Empresa/Banner.png");
+   background-repeat: no-repeat;
+   background-position: top;
+   background-size: cover; 
+   width: 100%;
+   height: 450px;  
+   float: none;
+}
+
+.rodape {
+    /* Parte de baixo do site ( footer )*/
+    background-color: #EE6600;
+    /*width: 80%;
+    margin-left: 8.30cm;*/
+	height: 9cm;
+    margin-top: 2cm;
+    margin: center;
+    border: black 1px solid;
+}
+
+.listarodape {
+    /*posição das listas do rodapé*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.distentrelista{
+	margin-left: 2cm;
+}	
+
+.posivitrine{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+}
+
+.espacovitrineimg{
+    /*DISTÂNCIA ENTRE AS IMAGENS DA VITRINE*/
+    padding-top: 10%;
+    justify-content: space-around;
+}
+.posipromo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -43%;
+    margin-left: 100px;
+}
+
+
+.dist {
+    margin-top: 700px;
+}

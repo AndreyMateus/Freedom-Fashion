@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+	<!-- cabeça do site, aqui ficam os links de âncoragem do site e seu título, também pode ter personalizações caso haja uma 'Tag' style-->
+	<meta charset="UTF-8">	<!--define o tipo de layout de digitação, sendo esse o padrão do 'teclado' internacional-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Para melhor utilização dá resolução baseado no hardware-->
+	<title> Freedom Fashion</title> <!-- título do site-->
+	<link rel="stylesheet" type="text/css" href="menu.css"> <!-- arquivo  contento personalizações do menu-->
+	<link rel="stylesheet" type="text/css" href="classes.css">	<!-- arquivo com personalizações de estilos criado pelo desenvolvedor do site-->
+	<link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist\css\bootstrap.css" type="text/css"><!-- link de âncoragem para utilizar classes já prontas do CSS ( arquivo baixado, não foi utilizado CDN (content delivery network) )-->
+</head>
+
+<body class="fundo">
+	<main class="container">
+		<header><!--cabeçalho do site-->
+			<div class="row"> <!-- linha  1 de todo o header-->
+				<div class="row cabecalho"></div> <!-- banner do site-->
+				<div class="row"> <!-- abertura da linha-->
+					<nav>
+						<div class="col-md-6">
+							<form> <!-- Barra de pesquisa-->	
+								<input type="search" placeholder="Buscar Produtos" aria-label="Search" class="tamanho ">
+								<a href="#"> <!-- Âncoragem de LINKS, ENDEREÇOS OU ID-->
+									<img src="ImagesFreedomFashion/ícones/ícone1.png" alt="ícone de pesquisa (lupa)"class="tamanholupa">
+								</a>
+							</form>
+						</div>
+					</nav>
+				</div> <!-- fechamento da linha 1-->
+					<div class="row ">  <!-- linha dos ícones de menu CONFERIR O FECHAMENTO DA TAG-->
+						<div class="col-md-4 "> <!-- Primeiro ícone ( minha conta )-->
+							<div class="posiicon1">
+								<a href="#" class="fonteicone">
+									<img src="ImagesFreedomFashion/ícones/ícone2.png" alt="Entre ou Cadastre-se" class="mb-2 pb-2">
+									<div> <!-- div para que o comentário ou descrição da imagem possa estar individual-->
+										<span class="espacing">Entre ou Cadastre-se</span> <!-- span utilizado para caso queira personalizar o texto ou alinha-lo-->
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 "> <!-- Segundo ícone  de Itens salvos-->
+							<div class="posiicon2">
+								<div>
+									<a href="#" class="fonteicone">
+										<img src="ImagesFreedomFashion/ícones/ícone4.png" alt="Salvo" class="mb-2 pb-2 " >
+										<div> <!-- div para que o comentário ou descrição da imagem possa estar individual-->
+											<span class="espacing1">Salvo</span><!-- span utilizado para caso queira personalizar o texto ou alinha-lo-->
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 "> <!-- Terceiro ícone (Carrinho)-->
+							<div class="posiicon3">
+								<div id="Carrinho">
+									<a href="#" class="fonteicone">
+										<img src="ImagesFreedomFashion/ícones/ícone3.png" alt="Seu carrinho" class="mb-2 pb-2">
+										<div> <!-- div para que o comentário ou descrição da imagem possa estar individual-->
+											<span class="espacing2 ">Seu Carrinho</span>	<!-- span utilizado para caso queira personalizar o texto ou alinha-lo-->
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				<section><!-- seção para o Menu da página-->
+					<nav> <!-- menu de seleção ( categoria )-->
+						<div class="conteiner">
+							<div class="row"> 
+								<div class="row"> <!-- UMA LINHA DENTRO DE OUTRA, UTILIZADA PARA DAR LIMITES DE EXPANSÃO e caso eu vá adicionar algo ou modificar, não necessiar alterar tudo.-->
+									<ul class="menuhorizontal me-auto mb-2 mb-md-0 ">
+										<li>
+											<a href="#">Novidades</a>
+										</li>
+										<li>
+											<a href="#">Conforto</a>
+										</li>
+										<li>
+											<a href="#">Feminino</a>
+										</li>
+										<li>
+											<a href="#">Masculino</a>
+										</li>
+										<li>
+											<a href="#">Relógios</a>
+										</li>
+										<li>
+											<a href="#">Geek</a>
+										</li>
+										<li>
+											<a href="#">Ofertas</a>
+										</li>
+									</ul>
+								</div> <!-- linha-->
+							</div>
+						</div>
+					</nav>
+				</section>
+			</div><!-- linha de todo o header-->
+		</header>
+	<section class="text-center">
+			<div class="row ">	<!--corpo do site-->
+				<div class="row transparente ">
+					<div> 
+						<h1 id="promo" class="centralizar">Promoções do Dia 70% OFF</h1>
+					</div>
+					<!-- PRIMEIRA FILA-->
+					<div class="row posivitrine  espacovitrineimg centralizar ">
+						<div class="col-md-4">
+							<a href="#"> <!-- Aguardando âncora (caminho) do destino-->
+								<img src="ImagesFreedomFashion\Vitrine\Imagem (7).png" alt="Vestido de Noiva Burguês"
+									class="bordaimagem" />
+								<img src="ImagesFreedomFashion/ícones/70% OFF.png" alt="Promoção 70% OFF" class="posipromo">
+								<span class="fonteiconevitrine centralizar ">Vestido de Noiva Burguês</span><!-- span utilizado para caso queira personalizar o texto ou alinha-lo-->
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="#"><!-- Aguardando âncora (caminho) do destino-->
+								<img src="ImagesFreedomFashion\Vitrine\Imagem (8).png" alt="Sobretudo Cartilado"
+									class="bordaimagem" />
+								<img src="ImagesFreedomFashion/ícones/70% OFF.png" alt="Promoção 70% OFF" class="posipromo">
+								<span class="fonteiconevitrine centralizar ">Sobretudo Cartilado</span><!-- span utilizado para caso queira personalizar o texto ou alinha-lo-->
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="#"><!-- Aguardando âncora (caminho) do destino-->
+								<img src="ImagesFreedomFashion\Vitrine\Imagem (9).png" alt="Blusa Azul EStilo Majin"
+									class="bordaimagem" />
+								<img src="ImagesFreedomFashion/ícones/70% OFF.png" alt="Promoção 70% OFF" class="posipromo">
+								<span class="fonteiconevitrine  centralizar">Blusa Azul Estilo Majin</span><!-- span utilizado para caso queira personalizar o texto ou alinha-lo-->
+							</a>
+						</div>
+					</div>
+					<!-- SEGUNDA FILA-->
+					<div class="row posivitrine posilista  espacovitrineimg centralizar">
+						<div class="col-md-4">
+							<a href="#"><!-- Aguardando âncora (caminho) do destino-->
+								<img src="ImagesFreedomFashion\Vitrine\Imagem (4).png" alt="Conjunto Michael Jackson"
+									class="bordaimagem">
+								<img src="ImagesFreedomFashion/ícones/70% OFF.png" alt="Promoção 70% OFF" class="posipromo">
+								<span class="fonteiconevitrine centralizar">Conjunto Michael Jackson</span><!-- span utilizado para caso queira personalizar o texto ou alinha-lo-->
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="#"><!-- Aguardando âncora (caminho) do destino-->
+								<img src="ImagesFreedomFashion\Vitrine\Imagem (5).png" alt="Conjunto Fiuk" class="bordaimagem">
+								<img src="ImagesFreedomFashion/ícones/70% OFF.png" alt="Promoção 70% OFF" class="posipromo">
+								<span class="fonteiconevitrine centralizar ">Conjunto Fiuk</span><!-- span utilizado para caso queira personalizar o texto ou alinha-lo-->
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="#"><!-- Aguardando âncora (caminho) do destino-->
+								<img src="ImagesFreedomFashion\Vitrine\Imagem (6).png" alt="Conjunto Academia"
+									class="bordaimagem" />
+								<img src="ImagesFreedomFashion/ícones/70% OFF.png" alt="Promoção 70% OFF" class="posipromo">
+								<span class="fonteiconevitrine centralizar">Conjunto Academia</span><!-- span utilizado para caso queira personalizar o texto ou alinha-lo-->
+							</a>
+						</div>
+					</div>
+					<!-- TERCEIRA FILA -->
+					<div class="row posivitrine posilista  espacovitrineimg centralizar ">
+						<div class="col-md-4">
+							<a href="#"><!-- Aguardando âncora (caminho) do destino-->
+								<img src="ImagesFreedomFashion\Vitrine\Imagem (3).png" alt="Conjunto Texas" class="bordaimagem">
+								<img src="ImagesFreedomFashion/ícones/70% OFF.png" alt="Promoção 70% OFF" class="posipromo">
+								<span class="fonteiconevitrine centralizar">Conjunto Texas</span><!-- span utilizado para caso queira personalizar o texto ou alinha-lo-->
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="#"><!-- Aguardando âncora (caminho) do destino-->
+								<img src="ImagesFreedomFashion\Vitrine\Imagem (2).png" alt="Terno Gaulês" class="bordaimagem">
+								<img src="ImagesFreedomFashion/ícones/70% OFF.png" alt="Promoção 70% OFF" class="posipromo">
+								<span class="fonteiconevitrine centralizar">Terno Gaulês</span><!-- span utilizado para caso queira personalizar o texto ou alinha-lo-->
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="#"><!-- Aguardando âncora (caminho) do destino-->
+								<img src="ImagesFreedomFashion\Vitrine\Imagem (1).png" alt="Conjunto Nova Moda"
+								class="bordaimagem" />
+								<img src="ImagesFreedomFashion/ícones/70% OFF.png" alt="Promoção 70% OFF" class="posipromo">
+								<span class="fonteiconevitrine centralizar">Conjunto Nova Moda</span><!-- span utilizado para caso queira personalizar o texto ou alinha-lo-->
+							</a>
+						</div>
+					</div>
+				</div> <!-- linha-->
+			</div><!-- linha-->
+		</section>
+
+		<footer><!--rodapé-->
+			<div class="row">
+				<div class="row rodape listarodape">
+					<ul class="col-md-4">
+						<!-- PARTE ESQUERDA (left)-->
+						<li class="distentrelista">
+							<a href="#">Participe do programa</a><!-- Aguardando âncora (caminho) do destino-->
+						</li>
+						<li class="distentrelista">
+							<a href="#">Cartões</a><!-- Aguardando âncora (caminho) do destino-->
+						</li>
+						<li class="distentrelista">
+							<a href="#">Cartão Presente</a><!-- Aguardando âncora (caminho) do destino-->
+						</li>
+					</ul>
+					<ul class="col-md-4">
+						<!-- PARTE DO MEIO (center)-->
+						<li class="distentrelista">
+							<a href="#">Institucional</a><!-- Aguardando âncora (caminho) do destino-->
+						</li>
+						<li class="distentrelista">
+							<a href="#">Termos e Condições</a><!-- Aguardando âncora (caminho) do destino-->
+						</li>
+						<li class="distentrelista">
+							<a href="#">Políitica de Privacidade</a><!-- Aguardando âncora (caminho) do destino-->
+						</li>
+					</ul>
+					<ul class="col-md-4">
+						<!-- PARTE DIREITA (right)-->
+						<li class="distentrelista">
+							<a href="#">Trabalhe Conosco</a><!-- Aguardando âncora (caminho) do destino-->
+						</li>
+						<li class="distentrelista">
+							<a href="#">Serviços de Entrega</a><!-- Aguardando âncora (caminho) do destino-->
+						</li>
+						<li class="distentrelista">
+							<a href="#">Trocas e Devoluções</a><!-- Aguardando âncora (caminho) do destino-->
+						</li>
+					</ul>
+				</div> <!--linha-->
+			</div><!--linha-->
+
+			<section><!-- seção para "âncoragem dos scripts"-->
+				<div>
+					<script src="bootstrap-5.0.0-beta2-dist\js\bootstrap.js" type="text/js"></script><!-- link de âncoragem para utilizar classes já prontas do JS do boostrap ( arquivo baixado, não foi utilizado CDN )-->
+				</div>
+			</section>
+		</footer>
+	</main> <!-- main conteiner-->
+</body>
+
+</html>
